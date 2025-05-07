@@ -6,13 +6,13 @@ const projectData = [
   {
     title: 'Born To Ride 501(c)(3)',
     description: 'Born to Ride - 501(c)(3)- landing page. Frontend uses Three.js to showcase skateboards and one skater. Donates can be submitted. The site is fully responsive and works on all devices.',
-    image: {BTR},
+    image: BTR,
     link: 'https://borntoridepleasantontx.org',
   },
   {
     title: 'Forever Home',
     description: 'Forever Home is a sleek, modern web app that connects people with adoptable pets near them. It features a user-friendly interface, allowing users to search for pets by breed, age, and location.',
-    image: {ForeverHome},
+    image: ForeverHome,
     link: 'https://forever-home-b1dba.web.app/',
   },
 ];
