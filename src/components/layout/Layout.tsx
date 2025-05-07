@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { useState } from 'react';
 import { useScrollSpy } from '../hooks/useScrollSpy'; 
 import { AnimatePresence, motion } from 'framer-motion';
+import Logo from '/src/assets/images/BBD-Logo.png';
 
 type LayoutProps = {
   children: ReactNode;
@@ -16,7 +17,7 @@ const Layout = ({ children }: LayoutProps) => {
     <>
       <header className="sticky top-0 z-50 bg-white dark:bg-slate-900 shadow-sm">
         <nav className="mx-auto flex items-center justify-between p-4 bg-slate-100">
-          <img className="w-15" src="/src/assets/images/BBD-Logo.png" alt="Blue Byrd Development Logo" />
+          <img className="w-15" src={Logo} alt="Blue Byrd Development Logo" />
 
           {/* desktop nav */}
           <ul className="hidden md:flex gap-6 text-sm">
