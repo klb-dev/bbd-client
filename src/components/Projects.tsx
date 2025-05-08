@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <section id="recent-flights" className="py-20 bg-slate-100 dark:bg-slate-800 scroll-mt-24">
       <div className="max-w-5xl mx-auto text-center px-4 sm:px-6">
-        <h2 className="text-3xl font-bold mb-8 text-cyan-700">Recent Flights</h2>
+        <h2 className="text-3xl font-bold mb-8 text-cyan-700">Sites that Soar</h2>
         <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-12">
           A look at web experiences we've built to soar.
         </p>

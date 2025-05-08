@@ -10,7 +10,7 @@ const Contact = () => {
           Send a Signal
         </h2>
         <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-10">
-          Ready to launch something? I’d love to hear what you're wanting to build.
+          Got something ready to soar? Let’s take it into the digital skies together.
         </p>
         <ContactForm />
         </div>
