@@ -92,7 +92,7 @@ const Layout = ({ children }: LayoutProps) => {
                   >
                     ×
                   </button>
-                  {['flight-path', 'recent-flights', 'send-signal'].map((id, i) => (
+                  {['path-to-soar', 'sites-that-soar', 'send-signal'].map((id, i) => (
                     <motion.button
                       key={id}
                       onClick={() => {
