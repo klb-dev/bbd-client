@@ -23,7 +23,7 @@ const Projects = () => {
       <div className="max-w-5xl mx-auto text-center px-4 sm:px-6">
         <h2 className="text-3xl font-bold mb-8 text-cyan-700">Recent Flights</h2>
         <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-12">
-          A quick look at a few sites we’ve helped take to the skies.
+          A look at web experiences we've built to soar.
         </p>
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 max-w-full overflow-hidden">
           {projectData.map((project, index) => (

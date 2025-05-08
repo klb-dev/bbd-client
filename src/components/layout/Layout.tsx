@@ -22,8 +22,8 @@ const Layout = ({ children }: LayoutProps) => {
           {/* desktop nav */}
           <ul className="hidden md:flex gap-6 text-sm">
             {[
-              { id: 'flight-path', label: 'Flight Path' },
-              { id: 'recent-flights', label: 'Recent Flights' },
+              { id: 'flight-path', label: 'Path to Soar' },
+              { id: 'recent-flights', label: 'Sites that Soar' },
               { id: 'send-signal', label: 'Send Signal' },
             ].map(({ id, label }) => (
               <li key={id}>

@@ -11,7 +11,7 @@ const Hero = () => {
             Blue Byrd Development
           </h1>
           <p className="text-base sm:text-lg md:text-xl mt-4 max-w-xl mx-auto">
-            Handcrafted web experiences with wings—built to take flight.
+            Handcrafted web experiences built to help brands soar on the digital sky.
           </p>
 
         </div>

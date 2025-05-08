@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-5xl mx-auto text-center px-4 sm:px-6">
           <h2 className="text-3xl font-bold mb-4 text-cyan-700">The Flight Path</h2>
           <p className="text-lg">
-            Blue Byrd Development was built to craft modern, high-performance web experiences that fly. We build sleek, scalable websites with clean design, sharp code, and modern frameworks—turning ideas into digital realities, fast. Whether you're launching, growing, or flying higher, Blue Byrd is your partner in the digital skies.
+            Blue Byrd Development was founded to help ideas take wing and soar. We craft sleek, scalable web experiences with clean design, sharp code, and modern frameworks—turning bold ideas into digital realities. Whether you're launching something new, evolving something great, or aiming even higher, Blue Byrd is your partner to soar the digital skies.
           </p>
         </div>
       </FadeInSection>
