@@ -1,6 +1,7 @@
 import ProjectCard from "./ui/ProjectCard";
 import BTR from '../assets/images/BornToRide.png';
 import ForeverHome from '../assets/images/ForeverHome.png';
+import FadeInSection from "./ui/FadeInSection";
 
 const projectData = [
   {
@@ -25,18 +26,20 @@ const Projects = () => {
         <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-12">
           A look at web experiences we've built to soar.
         </p>
-        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 max-w-full overflow-hidden">
-          {projectData.map((project, index) => (
-            <ProjectCard
-              key={project.title}
-              title={project.title}
-              description={project.description}
-              image={project.image}
-              link={project.link}
-              delay={index * 0.2}
-            />
-          ))}
-        </div>
+        <FadeInSection>
+          <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 max-w-full overflow-hidden">
+            {projectData.map((project, index) => (
+              <ProjectCard
+                key={project.title}
+                title={project.title}
+                description={project.description}
+                image={project.image}
+                link={project.link}
+                delay={index * 0.2}
+              />
+            ))}
+          </div>
+        </FadeInSection>
       </div>
     </section>
   );
