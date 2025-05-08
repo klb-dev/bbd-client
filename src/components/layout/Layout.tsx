@@ -24,6 +24,7 @@ const Layout = ({ children }: LayoutProps) => {
             {[
               { id: 'path-to-soar', label: 'Path to Soar' },
               { id: 'sites-that-soar', label: 'Sites that Soar' },
+              { id: 'lift-offs', label: 'Lift-Offs' },
               { id: 'send-signal', label: 'Send Signal' },
             ].map(({ id, label }) => (
               <li key={id}>
@@ -84,7 +85,8 @@ const Layout = ({ children }: LayoutProps) => {
                 exit={{ x: '100%' }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="relative flex flex-col items-center justify-start pt-24 gap-6 text-center text-2xl font-semibold">
+                <div className="relative flex flex-col justify-between min-h-[200px] bg-[#fff7ed] dark:bg-slate-900 p-6 rounded-xl shadow-md text-left transition-transform duration-300 snap-center shrink-0 w-[90%] sm:w-[90%] md:w-[300px]"
+                >
                   <button
                     onClick={() => setMenuOpen(false)}
                     aria-label="Close menu"
@@ -92,7 +94,7 @@ const Layout = ({ children }: LayoutProps) => {
                   >
                     ×
                   </button>
-                  {['path-to-soar', 'sites-that-soar', 'send-signal'].map((id, i) => (
+                  {['path-to-soar', 'sites-that-soar', 'lift-offs' ,'send-signal'].map((id, i) => (
                     <motion.button
                       key={id}
                       onClick={() => {
