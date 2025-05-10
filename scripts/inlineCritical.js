@@ -6,7 +6,6 @@ const distPath = path.resolve('dist');
 const indexHtmlPath = path.join(distPath, 'index.html');
 const assetsPath = path.join(distPath, 'assets');
 
-// Step 1: Find the hashed CSS file
 const cssFile = fs.readdirSync(assetsPath).find(f => f.endsWith('.css'));
 if (!cssFile) {
   console.error('No CSS file found in dist/assets');
@@ -15,13 +14,21 @@ if (!cssFile) {
 
 console.log(`Found CSS file: ${cssFile}`);
 
-// Step 2: Run critical with exact path
+// Before running critical, patch the href if needed
+let html = fs.readFileSync(indexHtmlPath, 'utf-8');
+html = html.replace(/href="\/bbd-client\/assets\/(.*?)\.css"/g, 'href="assets/$1.css"');
+fs.writeFileSync(indexHtmlPath, html);
+
 const command = `npx critical ${indexHtmlPath} \
   --inline \
   --base dist \
   --width 1300 \
   --height 900 \
-  --css dist/assets/${cssFile}`;
+  --css dist/assets/${cssFile} \
+  --extract`;
+
+
+
 
 console.log('Running Critical...');
 try {
