@@ -6,13 +6,13 @@ import FadeInSection from "./ui/FadeInSection";
 const projectData = [
   {
     title: 'Born To Ride 501(c)(3)',
-    description: 'Born to Ride - 501(c)(3)- landing page. Frontend uses Three.js to showcase skateboards and one skater. Donates can be submitted. The site is fully responsive and works on all devices.',
+    description: 'Born to Ride is a responsive landing page for a 501(c)(3) nonprofit. Built with Three.js and modern web frameworks to showcase custom design and donation functionality.',
     image: BTR,
     link: 'https://borntoridepleasantontx.org',
   },
   {
     title: 'Forever Home',
-    description: 'Forever Home is a sleek, modern web app that connects people with adoptable pets near them. It features a user-friendly interface, allowing users to search for pets by breed, age, and location.',
+    description: 'Forever Home is a sophisticated web application designed to seamlessly connect prospective adopters with available pets in their vicinity. Developed using the progressive capabilities of React and the robust backend services of Firebase,the platform enables users to efficiently search for companion animals based on specific criteria, including breed, age, and geographic location.  Forever Home provides a fluid and engaging experience for individuals seeking to welcome a new pet into their lives.',
     image: ForeverHome,
     link: 'https://forever-home-b1dba.web.app/',
   },

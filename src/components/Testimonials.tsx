@@ -47,7 +47,7 @@ const TestimonialCard = ({ quote, name, role, index }: TestimonialCardProps) => 
       transition={{ delay: index * 0.2, duration: 0.4, type: 'spring', stiffness: 100 }}
       whileHover={{ y: -5 }}
       viewport={{ once: true }}
-      className="relative flex flex-col justify-between min-h-[200px] bg-[#fff7ed] dark:bg-slate-900 p-6 rounded-xl shadow-md text-left transition-transform duration-300 snap-center shrink-0 w-[90%] max-w-xs hover:shadow-xl"
+      className="relative flex flex-col justify-between min-h-[200px] bg-slate-100 dark:bg-slate-900 p-6 rounded-xl shadow-md text-left transition-transform duration-300 snap-center shrink-0 w-[90%] max-w-xs hover:shadow-xl"
     >
       <div>
         <motion.div
@@ -129,7 +129,7 @@ const Testimonials = () => {
   }; 
 
   return (
-    <section id="lift-offs" className="pt-30 pb-15 px-6 bg-slate-100 dark:bg-slate-800 text-gray-800 dark:text-white">
+    <section id="lift-offs" className="py-20 bg-[#fff7ed] dark:bg-slate-800 scroll-mt-24">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-12 text-cyan-700">People we’ve helped soar</h2>
 

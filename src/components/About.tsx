@@ -7,7 +7,11 @@ const About = () => {
         <div className="max-w-5xl mx-auto text-center px-4 sm:px-6">
           <h2 className="text-3xl font-bold mb-4 text-cyan-700">Path to Soaring</h2>
           <p className="text-lg">
-            Blue Byrd Development was founded to help ideas take wing and soar. We craft sleek, scalable web experiences with clean design, sharp code, and modern frameworks—turning bold ideas into digital realities. Whether you're launching something new, evolving something great, or aiming even higher, Blue Byrd is your partner to soar the digital skies.
+            Blue Byrd Development empowers visionary ideas to achieve digital flight. We specialize in crafting sophisticated and scalable web experiences, characterized by elegant design, precise code, and cutting-edge frameworks. Our expertise transforms ambitious concepts into impactful digital realities.
+          </p>
+          <br />
+          <p className="text-lg">
+            As a contemporary web development studio, Byrd Blue Development excels in creating responsive websites and performance-optimized designs. We build custom web applications utilizing robust technologies such as React, TypeScript, and scalable backend solutions. Whether you are initiating a new venture, refining an existing platform, or striving for greater digital heights, Blue Byrd Devlopoment is your dedicated partner in navigating the digital landscape. Together, we'll help your ideas take wing and soar.
           </p>
         </div>
       </FadeInSection>

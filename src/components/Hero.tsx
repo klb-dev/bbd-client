@@ -8,10 +8,10 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <img src={Logo} alt="Blue Byrd Logo" className="w-24 sm:w-32 md:w-48 lg:w-56 mb-6 mx-auto" />
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-            Blue Byrd Development
+            Modern Web Development that Soars
           </h1>
           <p className="text-base sm:text-lg md:text-xl mt-4 max-w-xl mx-auto">
-            Handcrafted web experiences built to help brands soar in the digital sky.
+            Handcrafted web experiences built to help brands soar in the digital sky. Building fast, responsive websites with clean UI design and scalable code.
           </p>
         </div>
       </FadeInSection>

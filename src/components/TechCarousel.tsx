@@ -31,7 +31,13 @@ const TechCarousel = () => {
           <div className="flex gap-12 animate-scroll">
             {tools.concat(tools).map(({ name, icon: Icon, color }, i) => (
               <div key={i} className="min-w-[100px] flex flex-col items-center">
-                <Icon className="w-12 h-12 mb-2" style={{ color }} />
+                <span role="img" aria-label={name}>
+                  <Icon
+                    className="w-12 h-12 mb-2"
+                    style={{ color }}
+                    title={name}
+                  />
+                </span>
                 <span className="text-sm">{name}</span>
               </div>
             ))}
