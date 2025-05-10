@@ -29,7 +29,7 @@ const ProjectCard = ({ title, description, image, link, delay = 0}: ProjectCardP
             }}
             whileHover={{ scale: 1.01 }}
           />
-          <img src={image} alt={`${title} screenshot`} className="sr-only" />
+          <img src={image} alt={`${title} screenshot`} className="sr-only" loading="lazy"/>
           <div className="absolute inset-0 bg-[rgba(0,0,0,0.6)]" />
           <motion.div className="relative z-10 h-full w-full flex flex-col justify-end p-4 text-white rounded-b-xl">
             <h3 className="text-xl font-semibold">{title}</h3>
