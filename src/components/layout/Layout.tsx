@@ -15,8 +15,8 @@ const Layout = ({ children }: LayoutProps) => {
 
   return (
     <>
-      <header className="sticky top-0 z-50 bg-white dark:bg-slate-900 shadow-sm">
-        <nav className="mx-auto flex items-center justify-between p-4 bg-slate-100">
+      <header className="sticky top-0 z-50 bg-slate-100 dark:bg-slate-900 shadow-sm">
+        <nav className="mx-auto flex items-center justify-between p-4 bg-slate-100 font-bold">
           <img className="w-15" src={Logo} alt="Blue Byrd Development Logo" />
 
           {/* desktop nav */}
@@ -79,13 +79,13 @@ const Layout = ({ children }: LayoutProps) => {
               />
               <motion.div
                 key="mobile-menu"
-                className="fixed top-0 right-0 h-full w-1/2 bg-white dark:bg-slate-800 shadow-lg z-40"
+                className="fixed top-0 right-0 h-full w-1/2 bg-slate-100  dark:bg-slate-800 shadow-lg z-40"
                 initial={{ x: '100%' }}
                 animate={{ x: 0 }}
                 exit={{ x: '100%' }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="relative flex flex-col justify-between min-h-[200px] bg-[#fff7ed] dark:bg-slate-900 p-6 rounded-xl shadow-md text-left transition-transform duration-300 snap-center shrink-0 w-[90%] sm:w-[90%] md:w-[300px]"
+                <div className="relative flex flex-col justify-center items-center h-full gap-6 font-bold p-6 rounded-xl shadow-md text-left transition-transform duration-300 snap-center shrink-0 w-full max-w-xs mx-auto"
                 >
                   <button
                     onClick={() => setMenuOpen(false)}

@@ -12,13 +12,13 @@ body {
 
 @keyframes gradient-pan {
   0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
 .animate-gradient {
-  background-size: 200% 200%;
-  animation: gradient-pan 5s ease infinite;
+  background: linear-gradient(135deg, #364153, #364153, #1e2939); 
+  background-size: 600% 600%;
+  animation: gradient-pan 15s ease infinite;
 }
 
 @keyframes scroll {
